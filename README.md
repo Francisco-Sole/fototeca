@@ -77,8 +77,10 @@ Ideal para uso personal, pruebas o documentación visual
 ☁️ Subir imagenes a un cloud o servidor casero
 
 # 👤 Autor
-Creado por Francisco Sole 
+Creado por Francisco Solé
+
 📍 El Vendrell, España 
+
 💡 Apasionado por la infraestructura, domotica casera, la documentación clara y la mejora continua
 
 # 📘 Licencia
