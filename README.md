@@ -38,6 +38,24 @@ chmod -R 775 media/
 Accede desde tu navegador:
 http://localhost/fototeca
 
+# 📘 Instalación y base de datos
+Este proyecto requiere una base de datos ```MySQL/MariaDB``` para funcionar. 
+
+Antes de ejecutar la aplicación, es necesario crear las tablas correspondientes.
+
+En la carpeta ```/SQL``` encontrarás los scripts necesarios para generar la estructura de la base de datos (fotos y album).
+
+Importa esos archivos en tu gestor de base de datos (```phpMyAdmin, consola MySQL, etc.```) para preparar el entorno.
+
+Asegúrate de configurar correctamente las credenciales de conexión en tu archivo config.php.
+
+Ejemplo rápido en consola:
+
+```bash
+mysql -u usuario -p fototeca < SQL/schema.sql
+```
+
+
 # Estructura del proyecto
 ```bash
 fototeca/
@@ -75,6 +93,15 @@ Ideal para uso personal, pruebas o documentación visual
 🧑‍💻 Panel de administración para gestionar fotos
 
 ☁️ Subir imagenes a un cloud o servidor casero
+
+# 🚧 Estado del proyecto
+Este proyecto no está terminado. Actualmente se encuentra en fase de desarrollo y pruebas, por lo que:
+
+La estructura de tablas puede cambiar.
+
+Algunas funcionalidades aún no están implementadas.
+
+El código está pensado como prototipo/demostración.
 
 # 👤 Autor
 Creado por Francisco Solé
