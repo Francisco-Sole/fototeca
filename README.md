@@ -106,7 +106,7 @@ El código está pensado como prototipo/demostración.
 # 👤 Autor
 Creado por Francisco Solé
 
-📍 El Vendrell, España 
+📍 Barcelona, España 
 
 💡 Apasionado por la infraestructura, domotica casera, la documentación clara y la mejora continua
 
